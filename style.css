@@ -13,7 +13,8 @@ body {
   background-color: #faf9ed;
 }
 
-canvas {
+.page {
+  width: 100%;
   margin: 0 auto;
   margin-top: 50px;
 }
