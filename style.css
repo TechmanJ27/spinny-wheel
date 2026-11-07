@@ -10,5 +10,10 @@
 }
 
 body {
-  background-color: faf9ed;
+  background-color: #faf9ed;
+}
+
+canvas {
+  margin: 0 auto;
+  margin-top: 50px;
 }
