@@ -1,1 +1,11 @@
+.top {
+  text-align: center;
+}
 
+.right {
+  margin-left: auto;
+}
+
+.page {
+  display: flex;
+}
