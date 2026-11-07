@@ -9,6 +9,15 @@ function getCirclePoints(centerX, centerY, radius, numPoints) {
   return points;
 }
 
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
 function drawChoice(startAngle, endAngle, centerX, centerY, radius) {
   ctx.beginPath();
   ctx.moveTo(centerX, centerY);
@@ -16,7 +25,7 @@ function drawChoice(startAngle, endAngle, centerX, centerY, radius) {
   ctx.arc(centerX, centerY, radius, startAngle, endAngle);
   ctx.closePath();
 
-  ctx.fillStyle = '#3498db';
+  ctx.fillStyle = getRandomColor();
   ctx.fill();
   ctx.lineWidth = 3;
   ctx.strokeStyle = '#2980b9';
