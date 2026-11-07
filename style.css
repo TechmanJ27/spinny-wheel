@@ -9,3 +9,7 @@
 .page {
   display: flex;
 }
+
+body {
+  background-color: faf9ed;
+}
