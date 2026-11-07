@@ -1,12 +1,12 @@
 .top {
   text-align: center;
   width: 100%;
-  height: 10%;
   margin-bottom: auto;
 }
 
 .right {
-  margin-left: auto;
+  margin-left: auto; 
+  margin-right: 0;
 }
 
 body {
